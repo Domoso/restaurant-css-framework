@@ -1,4 +1,5 @@
 .jumbotron {
+	border: 3px solid black;
 	margin : {
 		top: 7%;
 	}
@@ -15,7 +16,12 @@
 	letter-spacing: 10px;
 }
 
-li {
+.pages {
+	display: inline;
+	list-style: none;
+}
+
+.photos {
 	display: inline;
 	list-style: none;
 }
