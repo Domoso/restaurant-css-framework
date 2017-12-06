@@ -1,3 +1,6 @@
+.col {
+  margin-top: 20px; }
+
 .jumbotron {
   border: 3px solid black;
   margin-top: 7%; }
@@ -14,6 +17,9 @@
 
 .photos {
   display: inline;
+  list-style: none; }
+
+.carte {
   list-style: none; }
 
 /*# sourceMappingURL=style.css.map */
