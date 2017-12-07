@@ -1,3 +1,8 @@
+body {
+	font-family: 'Dancing Script';
+	// background-color: #EBEBEB;
+}
+
 .col {
 	margin : {
 		top: 20px;
@@ -22,16 +27,99 @@
 	letter-spacing: 10px;
 }
 
+.titrerestaurants {
+	margin-left: -190px;
+}
+
+.tableau1 {
+	margin-top: 30px;
+}
+
+.tableau1 p {
+	font-size: 20px;
+}
+
+.tableau2 {
+	margin-top: 30px;
+}
+
+.tableau2 p {
+	font-size: 20px;
+}
+
 .pages {
+	margin-top: 30px;
+}
+
+.page {
 	display: inline;
 	list-style: none;
+	margin: 0 30px;
+	margin-left: 90px;
 }
 
 .photos {
+	margin : {
+		top: 30px;
+	}
 	display: inline;
 	list-style: none;
 }
 
 .carte {
 	list-style: none;
+	font-size: 25px;
+}
+
+.plats {
+	margin-top: 30px;
+}
+
+a {
+	color: black;
+	font : {
+		size: 30px;
+	}
+}
+
+.photosb {
+	display: inline;
+	margin: 0 25px;
+}
+
+.photol {
+	height: 400px;
+	width: 500px;
+}
+
+.contact {
+	margin-left: -60px;
+}
+
+.formulaire {
+	margin-top: 30px;
+}
+
+.nom {
+	margin-top: 30px;
+}
+
+.prenom {
+	margin-top: 30px;
+}
+
+.email {
+	margin-top: 30px;
+}
+
+.objmsg {
+	margin-top: 30px;
+}
+
+.msg {
+	margin-top: 30px;
+}
+
+.boutton {
+	margin-top: 30px;
 }
