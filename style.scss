@@ -1,6 +1,10 @@
 body {
 	font-family: 'Dancing Script';
-	// background-color: #EBEBEB;
+	// background : {
+	// 	image: url(image/imagefond.jpg) !important;
+	// 	repeat: no-repeat;
+	// 	size: cover;
+	// }
 }
 
 .col {
@@ -33,6 +37,7 @@ body {
 
 .tableau1 {
 	margin-top: 30px;
+	// color: white;
 }
 
 .tableau1 p {
