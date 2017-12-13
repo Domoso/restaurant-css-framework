@@ -59,11 +59,19 @@ body {
   list-style: none;
   font-size: 25px; }
 
+.tableauA {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px; }
+
+.tableauB {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px; }
+
 .plats {
   margin-top: 30px; }
 
 a {
-  color: black;
+  color: white;
   font-size: 30px; }
 
 .photosb {
@@ -78,7 +86,8 @@ a {
   margin-left: -60px; }
 
 .formulaire {
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: white; }
 
 .nom {
   margin-top: 30px; }
@@ -101,5 +110,16 @@ a {
 .envoyer {
   font-family: 'Dancing Script';
   font-size: 25px; }
+
+label {
+  color: white;
+  font-weight: bold; }
+
+.pagesphotos {
+  margin-top: 30px; }
+
+a:hover {
+  text-decoration: none;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

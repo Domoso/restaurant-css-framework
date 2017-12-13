@@ -83,12 +83,22 @@ body {
 	font-size: 25px;
 }
 
+.tableauA {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 15px;
+}
+
+.tableauB {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 15px;
+}
+
 .plats {
 	margin-top: 30px;
 }
 
 a {
-	color: black;
+	color: white;
 	font : {
 		size: 30px;
 	}
@@ -110,6 +120,7 @@ a {
 
 .formulaire {
 	margin-top: 30px;
+	color: white;
 }
 
 .nom {
@@ -141,4 +152,18 @@ a {
 		family: 'Dancing Script';
 		size: 25px;
 	}
+}
+
+label {
+	color: white;
+	font-weight: bold;
+}
+
+.pagesphotos {
+	margin-top: 30px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
 }
