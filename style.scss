@@ -1,10 +1,10 @@
 body {
 	font-family: 'Dancing Script';
-	// background : {
-	// 	image: url(image/imagefond.jpg) !important;
-	// 	repeat: no-repeat;
-	// 	size: cover;
-	// }
+	background : {
+		image: url(image/imagefond.jpg) !important;
+		repeat: no-repeat;
+		size: cover;
+	}
 }
 
 .col {
@@ -25,9 +25,7 @@ body {
 		family: 'Dancing Script';
 		size: 100px;
 	}
-	padding : {
-		left: 35%;
-	}
+	text-align: center;
 	letter-spacing: 10px;
 }
 
@@ -37,7 +35,13 @@ body {
 
 .tableau1 {
 	margin-top: 30px;
-	// color: white;
+	background-color: white;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tableau1 h2 {
+	opacity: 1;
 }
 
 .tableau1 p {
@@ -46,6 +50,9 @@ body {
 
 .tableau2 {
 	margin-top: 30px;
+	background-color: white;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .tableau2 p {

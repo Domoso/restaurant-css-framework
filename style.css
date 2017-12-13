@@ -1,5 +1,8 @@
 body {
-  font-family: 'Dancing Script'; }
+  font-family: 'Dancing Script';
+  background-image: url(image/imagefond.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .col {
   margin-top: 20px; }
@@ -11,20 +14,29 @@ body {
 .jumbotron h1 {
   font-family: 'Dancing Script';
   font-size: 100px;
-  padding-left: 35%;
+  text-align: center;
   letter-spacing: 10px; }
 
 .titrerestaurants {
   margin-left: -190px; }
 
 .tableau1 {
-  margin-top: 30px; }
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.tableau1 h2 {
+  opacity: 1; }
 
 .tableau1 p {
   font-size: 20px; }
 
 .tableau2 {
-  margin-top: 30px; }
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.5); }
 
 .tableau2 p {
   font-size: 20px; }
